@@ -116,6 +116,11 @@ streamlit run app.py
 
 Open the printed URL in your browser ([http://localhost:8501](http://localhost:8501) for Streamlit).
 
+<div align="center">
+  <img src="https://github.com/debjit11/Movie-Recommender-System/blob/main/img1.png" alt="Radar System UI" width="45%" />
+  <img src="https://github.com/debjit11/Movie-Recommender-System/blob/main/img2.png" alt="Missile Defense UI" width="45%" />
+</div>  
+
 ## How the Recommender Works (high level)
 
 * The notebook builds a combined textual feature for each movie (e.g. `genres`, `keywords`, `cast`, `crew`).
