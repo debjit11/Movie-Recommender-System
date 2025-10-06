@@ -114,7 +114,7 @@ streamlit run app.py
 
 ```
 
-Open the printed URL in your browser ([http://localhost:8501](http://localhost:8501) for Streamlit).
+Open the printed URL in your browser ([http://localhost:8501](http://localhost:8501) for Streamlit)
 
 <div align="center">
   <img src="https://github.com/debjit11/Movie-Recommender-System/blob/main/img1.png" alt="Radar System UI" width="45%" />
