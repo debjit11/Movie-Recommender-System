@@ -88,3 +88,5 @@ if st.button("🔥 Show Recommendations"):
             st.markdown(f'<div class="movie-title">{names[idx]}</div>', unsafe_allow_html=True)
 
 st.markdown("<br><hr><center>Made with ❤️ by Debjit Das</center>", unsafe_allow_html=True)
+
+
