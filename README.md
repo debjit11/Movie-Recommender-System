@@ -114,7 +114,7 @@ streamlit run app.py
 
 ```
 
-Open the printed URL in your browser ([http://localhost:8501](http://localhost:8501) for Streamlit).
+
 
 ## How the Recommender Works (high level)
 
