@@ -113,6 +113,12 @@ There are multiple ways the app might be executed depending on how `app.py` is i
 streamlit run app.py
 
 ```
+<div align="center">
+  <img src="https://github.com/debjit11/Movie-Recommender-System/blob/main/img1.png" alt="Radar System UI" width="45%" />
+  <img src="https://github.com/debjit11/Movie-Recommender-System/blob/main/img2.png" alt="Missile Defense UI" width="45%" />
+</div>  
+
+---
 
 Open the printed URL in your browser ([http://localhost:8501](http://localhost:8501) for Streamlit).
 
