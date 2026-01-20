@@ -92,7 +92,7 @@ This project was built using the **TMDB 5000 Movies** dataset (commonly availabl
 
 ```bash
 jupyter notebook main.ipynb
-# or jupyter lab
+
 ```
 
 Open the notebook and run cells in order. The notebook contains clear sections for:
@@ -109,7 +109,7 @@ There are multiple ways the app might be executed depending on how `app.py` is i
 
 ```bash
 
-# the app is a Streamlit app
+
 streamlit run app.py
 
 ```
