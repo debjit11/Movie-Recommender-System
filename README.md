@@ -87,6 +87,7 @@ This project was built using the **TMDB 5000 Movies** dataset (commonly availabl
 ### 1) Run the Jupyter Notebook (explore & retrain)
 
 ```bash
+
 jupyter notebook main.ipynb
 
 ```
