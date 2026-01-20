@@ -56,20 +56,16 @@ Movie-Recommender-System/
 Follow these commands to clone and set up the project locally.
 
 ```bash
-# 1. Clone the repo
+
 git clone https://github.com/debjit11/Movie-Recommender-System.git
 cd Movie-Recommender-System
 
-# 2. Create and activate a virtual environment (recommended)
-# macOS / Linux
 python3 -m venv .venv
 source .venv/bin/activate
 
-# Windows (PowerShell)
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
-# 3. Install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
