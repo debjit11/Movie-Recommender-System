@@ -2,14 +2,17 @@
 FROM python:3.12-slim
 
 # Set working directory inside container
+
 WORKDIR /app
 
 # Install system dependencies 
+
 RUN apt-get update && apt-get install -y \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements first 
+
 COPY requirements.txt .
 
 # Upgrade pip and install Python dependencies
