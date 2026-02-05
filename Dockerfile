@@ -1,15 +1,15 @@
-# Use Python 3.12 (matches your local version)
+
 FROM python:3.12-slim
 
 # Set working directory inside container
 WORKDIR /app
 
-# Install system dependencies (needed for numpy / sklearn)
+# Install system dependencies 
 RUN apt-get update && apt-get install -y \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy requirements first (Docker cache optimization)
+# Copy requirements first 
 COPY requirements.txt .
 
 # Upgrade pip and install Python dependencies
@@ -22,7 +22,7 @@ COPY . .
 # Expose Streamlit default port
 EXPOSE 8501
 
-# Streamlit environment settings (important for Docker)
+# Streamlit environment settings 
 ENV STREAMLIT_SERVER_PORT=8501
 ENV STREAMLIT_SERVER_ADDRESS=0.0.0.0
 ENV STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
