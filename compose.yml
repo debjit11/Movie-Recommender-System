@@ -1,0 +1,11 @@
+name: my-ml-app
+
+services:
+  movie-recomandation-app:
+    build: .
+    container_name : movie-app
+    environment:
+      - PORT=8501
+    ports:
+      - "8501:8501"
+    
